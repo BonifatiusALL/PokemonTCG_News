@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: pokezentrum-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        fromSecret: BOT_TOKEN
+      - key: CHAT_ID
+        fromSecret: CHAT_ID
