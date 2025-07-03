@@ -11,4 +11,4 @@ services:
         fromSecret: CHAT_ID
     build:
       environment:
-        pythonVersion: 3.10.13
+        pythonVersion: 3.13.4
